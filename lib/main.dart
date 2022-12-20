@@ -1,10 +1,19 @@
 import 'package:app/screens/Stack.dart';
+import 'package:app/screens/WriteMessage.dart';
 import 'package:app/screens/accountRecovery.dart';
 import 'package:app/screens/checkYourMailbox.dart';
 import 'package:app/screens/geolacation_screen.dart';
 import 'package:app/screens/identlyFerefication.dart';
 import 'package:app/screens/identlyFerefication2.dart';
+import 'package:app/screens/kashka.dart';
+import 'package:app/screens/matchingInfo.dart';
+import 'package:app/screens/matchingMain.dart';
+import 'package:app/screens/message.dart';
+import 'package:app/screens/mostLikedUsers.dart';
+import 'package:app/screens/notificationLikesPrremium.dart';
+import 'package:app/screens/notificationVistars.dart';
 import 'package:app/screens/numberChanged.dart';
+import 'package:app/screens/seachFilter.dart';
 import 'package:app/screens/turnOnNotifications.dart';
 import 'package:app/screens/verification.dart';
 import 'package:app/screens/welcome_screen.dart';
@@ -21,20 +30,20 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
-        // changing the primarySwatch below to Colors.green and then invoke
-        // "hot reload" (press "r" in the console where you ran "flutter run",
-        // or simply save your changes to "hot reload" in a Flutter IDE).
-        // Notice that the counter didn't reset back to zero; the application
-        // is not restarted.
-        primarySwatch: Colors.blue,
-      ),
-      home: IndentlyFerefication2(),
-    );
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          // This is the theme of your application.
+          //
+          // Try running your application with "flutter run". You'll see the
+          // application has a blue toolbar. Then, without quitting the app, try
+          // changing the primarySwatch below to Colors.green and then invoke
+          // "hot reload" (press "r" in the console where you ran "flutter run",
+          // or simply save your changes to "hot reload" in a Flutter IDE).
+          // Notice that the counter didn't reset back to zero; the application
+          // is not restarted.
+          primarySwatch: Colors.blue,
+          // scaffoldBackgroundColor: const Color(0xFFEFEFEF),
+        ),
+        home: LikesPremium());
   }
 }

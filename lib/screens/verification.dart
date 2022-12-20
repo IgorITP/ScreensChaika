@@ -13,7 +13,7 @@ class VerificationWidget extends StatelessWidget {
         // делает так чтобы моя страница скролилась
         child: Column(
           children: [
-            Container(
+            SizedBox(
               height: 932,
               width: double.infinity,
               child: Column(children: [
@@ -21,7 +21,7 @@ class VerificationWidget extends StatelessWidget {
                   height: 127,
                 ),
                 const Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 40),
+                  padding: EdgeInsets.symmetric(horizontal: 40),
                   child: Text(
                     "👋🏻 Hurray! That’s all!",
                     textAlign: TextAlign.center,
@@ -32,7 +32,7 @@ class VerificationWidget extends StatelessWidget {
                   height: 6,
                 ),
                 const Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20),
+                  padding: EdgeInsets.symmetric(horizontal: 20),
                   child: Text(
                     "Protect your account by adding an e-mail to it ",
                     textAlign: TextAlign.center,
@@ -74,10 +74,10 @@ class VerificationWidget extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 24),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color.fromRGBO(131, 194, 155, 1),
+                        color: const Color.fromRGBO(131, 194, 155, 1),
                         borderRadius: BorderRadius.circular(36)),
                     child: const Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 20),
+                      padding: EdgeInsets.symmetric(vertical: 20),
                       child: Center(
                         child: Text(
                           "Sent",

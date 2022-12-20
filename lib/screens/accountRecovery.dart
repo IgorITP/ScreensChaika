@@ -69,7 +69,7 @@ class AccountRecovery extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: Color.fromRGBO(131, 194, 155, 1),
                       borderRadius: BorderRadius.circular(30)),
-                  child: const Center(
+                  child: Center(
                     child: Padding(
                       padding: const EdgeInsets.symmetric(vertical: 19.5),
                       child: Text("Sent",
